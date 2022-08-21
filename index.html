@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .size{
+           
+            display: grid;
+            justify-items: center
+        }
+    </style>
+</head>
+<body class="bg-cyan-100">
+
+    <button id="dark-mood" class="bg-neutral-800 text-white px-px py-px rounded-sm    font-sans font-light mt-1.5 mx-1.5 ">Night</button>
+    <button id="day-mood" class="bg-gray-400 text-slate-900 px-px py-px rounded-sm    font-sans font-light mt-1.5 mx-1.5">Day</button>
+
+
+    <h1 class="text-center font-bold text-5xl text-orange-400 font-sans">switch bank</span></h1>
+
+    <section id="dark" class="mx-auto w-2/4	bg-cyan-200	mt-12 p-8">
+        <h1 class="mb-4 text-center font-bold text-5xl text-orange-300 font-sans">log in</h1>
+
+        <div class="  size">
+            <!-- email  -->
+            <input id="email-box" type="email" class="block mb-4 w-3/4	" placeholder="Email">
+            <!-- password  -->
+            <input id="password-section" type="password" class="block mb-4 w-3/4 min-h-max" placeholder="password">
+
+
+            <button id="submit-button" class="font-sans font-bold bg-yellow-400 p-3 rounded-lg">Submit</button>
+           
+        </div>
+
+    </section>
+
+
+    <!-- script section  -->
+    <script src="style.js"></script>
+</body>
+</html>

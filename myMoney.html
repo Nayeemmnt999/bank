@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hisab Nikash</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center font-bold text-5xl text-orange-400 font-sans mt-12">Amar takar hisab nikash</span></h1></body>
+
+    <main>
+        <section>
+            <div class="grid grid-cols-3 gap-4 mt-12 w-9/12 mx-auto">
+                <div class="bg-green-400 p-12 ">
+                    <h1 class="text-3xl font-bold text-gray-50 mb-4">Deposit</h1>
+                    <h1 class="text-4xl font-bold text-gray-50">$<span id="total-deposit">00</span></h1>
+                </div>
+                <div class="bg-amber-600 p-12 ">
+                    <h1 class="text-3xl font-bold text-gray-50 mb-4">Widraw</h1>
+                    <h1 class="text-4xl font-bold text-gray-50">$<span id="widraw-total">00</span></h1>
+                </div>
+                <div class="bg-rose-700 p-12 ">
+                    <h1 class="text-3xl font-bold text-gray-50 mb-4">Balence</h1>
+                    <h1 class="text-4xl font-bold text-gray-50">$<span id="balence-total">00</span> </h1>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- deposite and widraw  -->
+        <section>
+            <div class="grid grid-cols-2 gap-4 mt-12 w-9/12 mx-auto ">
+
+
+                <div class="bg-violet-700 p-4  ">
+                    <h1 class="mt-4 text-2xl text-white">Please Deposite</h1>
+                    <input id="deposit-input" class="block mt-4" type="text" placeholder="deposite">
+                    <button id="deposit-btn" class="text-white mt-4 text-xl bg-purple-900 p-2 rounded-2xl">Deposite</button>
+                </div>
+
+
+
+                <!-- section 2 -->
+                <div class="bg-violet-700 p-4  ">
+                    <h1 class="mt-4 text-2xl text-white">Widraw</h1>
+                    <input id="widraw-input" class="block mt-4" type="text" placeholder="widraw amount">
+                    <button id="widraw-button" class="text-white mt-4 text-xl bg-purple-900 p-2 rounded-2xl">Widraw</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="deposit.js"></script>
+    <script src="widraw.js"></script>
+</body>    
+</html>
